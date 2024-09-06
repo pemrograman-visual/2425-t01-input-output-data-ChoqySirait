@@ -3,7 +3,7 @@
 import java.util.*;
 import java.lang.Math;
 
-public class T01 {
+public class JavaApplication {
     private static Scanner input = new Scanner(System.in);
 
     public static void main(String[] args) {
@@ -18,7 +18,7 @@ public class T01 {
         penulis = input.nextLine();
         int tahun, terbit;
 
-        tahun = input.nextInt();
+        tahun = Integer.parseInt(input.nextLine());
         String penerbit;
 
         penerbit = input.nextLine();
@@ -27,16 +27,16 @@ public class T01 {
         format = input.nextLine();
         double harga, pembelian;
 
-        harga = input.nextDouble();
+        harga = Double.parseDouble(input.nextLine());
         double minimum, margin;
 
-        margin = input.nextDouble();
+        margin = Double.parseDouble(input.nextLine());
         int stok;
 
-        stok = input.nextInt();
+        stok = Integer.parseInt(input.nextLine());
         double rating;
 
-        rating = input.nextDouble();
+        rating = Double.parseDouble(input.nextLine());
         System.out.println(iSBN + "|" + judul + "|" + penulis + "|" + tahun + "|" + penerbit + "|" + format + "|" + harga + "|" + margin + "|" + stok + "|" + rating);
     }
 }
