@@ -1,10 +1,9 @@
-// NIM - Your Name
 // 12S24006 - Margareth Bungaran Sitompul
 // 12S24012 - Choqy Pananda Sirait
 import java.util.*;
 import java.lang.Math;
 
-public class T01 {
+public class Program {
     private static Scanner input = new Scanner(System.in);
 
     public static void main(String[] args) {
