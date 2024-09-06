@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="T01"/>
+        <attribute name="authors" value="LEN0V0"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-06 11:33:22 AM"/>
+        <attribute name="created" value="TEVOMFYwO0xBUFRPUC1WVDQ1QTU3QzsyMDI0LTA5LTA2OzExOjE4OjA1IEFNOzI2OTc="/>
+        <attribute name="edited" value="TEVOMFYwO0xBUFRPUC1WVDQ1QTU3QzsyMDI0LTA5LTA2OzExOjMzOjIyIEFNOzE7MjgwMQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="ISBN" type="String" array="False" size=""/>
+            <input variable="ISBN"/>
+            <declare name="Judul" type="String" array="False" size=""/>
+            <input variable="Judul"/>
+            <declare name="Penulis" type="String" array="False" size=""/>
+            <input variable="Penulis"/>
+            <declare name="Tahun, terbit" type="Integer" array="False" size=""/>
+            <input variable="Tahun"/>
+            <declare name="Penerbit" type="String" array="False" size=""/>
+            <input variable="Penerbit"/>
+            <declare name="Format, buku, elektranik" type="String" array="False" size=""/>
+            <input variable="Format"/>
+            <declare name="Harga, Pembelian" type="Real" array="False" size=""/>
+            <input variable="Harga"/>
+            <declare name="Minimum, Margin" type="Real" array="False" size=""/>
+            <input variable="Margin"/>
+            <declare name="Stok" type="Integer" array="False" size=""/>
+            <input variable="Stok"/>
+            <declare name="Rating" type="Real" array="False" size=""/>
+            <input variable="Rating"/>
+            <output expression="ISBN&amp;&quot;|&quot;&amp;Judul&amp;&quot;|&quot;&amp;Penulis&amp;&quot;|&quot;&amp;Tahun&amp;&quot;|&quot;&amp;Penerbit&amp;&quot;|&quot;&amp;Format&amp;&quot;|&quot;&amp;Harga&amp;&quot;|&quot;&amp;Margin&amp;&quot;|&quot;&amp;Stok&amp;&quot;|&quot;&amp;Rating" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
